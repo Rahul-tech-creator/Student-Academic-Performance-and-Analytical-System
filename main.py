@@ -2,7 +2,7 @@ from student.student import Student
 s = Student()
 
 while True:
-    print("\n1.Add 2.Display 3.Search 4.Delete 5.Update 6.Visualize 7.Exit")
+    print("\n1.Add \n2.Display \n3.Search \n4.Delete \n5.Update \n6.Visualize \n7.Exit")
     ch = input("Choice: ")
 
     if ch == '1':
