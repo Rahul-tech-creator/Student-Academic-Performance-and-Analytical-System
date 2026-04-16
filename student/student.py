@@ -1,4 +1,4 @@
-# student/student.py
+# Rahul-2500031051
 
 import csv
 import os
@@ -41,12 +41,12 @@ class Student:
         cgpa = round(avg / 10, 2)
 
         return [sid, name, cls] + marks + [avg, grade, cgpa]
-
+# leela abhay-2500031075
     def add_student(self):
         with open(FILE, "a", newline="") as f:
             csv.writer(f).writerow(self.get_student_data())
         print("Added!")
-
+# sahithi-2500031089
     def display_students(self):
         with open(FILE, "r") as f:
             reader = csv.reader(f)
@@ -73,7 +73,7 @@ class Student:
 
         for row in rows:
             print(format_row(row))
-
+# akhil-2500031036
     def search_student(self):
         sid = input("ID: ")
 
@@ -103,7 +103,7 @@ class Student:
             csv.writer(f).writerows(rows)
 
         print("Deleted!")
-
+# leela abhay-2500031075
     def update_student(self):
         sid = input("Enter ID: ")
         rows = []
@@ -130,7 +130,7 @@ class Student:
             csv.writer(f).writerows(rows)
 
         print("Updated!")
-
+# Rahul-2500031051
     def visualize_data(self):
         names = []
         avgs = []
@@ -150,8 +150,7 @@ class Student:
         if not names:
             print("No data found")
             return
-
-        # Bar Chart
+            
         plt.figure(figsize=(10, 5))
         plt.bar(names, avgs)
         plt.title("Average Marks")
