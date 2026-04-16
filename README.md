@@ -79,6 +79,7 @@ id,name,class,s1,s2,s3,s4,s5,avg,grade,cgpa
 * File Handling (CSV)
 * Data Processing
 * Modular Design
+* Matplot 
 
 ---
 
@@ -108,3 +109,10 @@ This project may look simple, but it reflects strong fundamentals in:
 > Small systems, built right, become powerful.
 
 ---
+Matplot screenshots
+
+<img width="997" height="574" alt="Screenshot 2026-04-16 124518" src="https://github.com/user-attachments/assets/d632a6ae-6787-4850-9ecd-1c0efffcbbc2" />
+<img width="603" height="671" alt="Screenshot 2026-04-16 124542" src="https://github.com/user-attachments/assets/697006a4-ddc9-4b5a-a715-62611715b804" />
+<img width="996" height="572" alt="Screenshot 2026-04-16 124551" src="https://github.com/user-attachments/assets/6d127595-3d5b-4178-8976-bda4ac038a35" />
+
+
